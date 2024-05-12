@@ -1,0 +1,50 @@
+.mission-section {
+    padding: 140px 0;
+    background-color: var(--color-price-light);
+
+    &__conteiner {
+        @media screen and (min-width: $bp-tablet) {
+            text-align: center;
+        }
+    }
+
+    &__text {
+        font-size: 18px;
+        color: var(--color-white);
+        margin: 0 0 25px;
+    }
+
+    &__title {
+        font-size: 46px;
+        font-weight: 700;
+        color: var(--color-white);
+        margin-bottom: 41px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 21px 0;
+        border: 2px solid var(--color-button);
+        border-radius: 32px;
+        width: 100%;
+        max-width: 410px;
+        color: var(--color-white);
+        background-color: var(--color-button);
+        font-weight: 900;
+        font-size: 14px;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: transparent;
+            border: 2px solid var(--color-button);
+        }
+    }
+
+    &__icon {
+        fill: var(--color-white);
+    }
+}

@@ -1,0 +1,120 @@
+.footer {
+    background-color: black;
+    padding: 24px 0 124px;
+
+
+    &__conteiner {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 50px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 15px;
+            color: var(--color-white);
+            text-transform: uppercase;
+            white-space: nowrap;
+            text-align: center;
+
+            @media screen and (min-width: $bp-desktop) {
+                text-align: start;
+            }
+        }
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+
+        li:not(:first-child) {
+            margin-top: 24px
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--color-footer-nav);
+            font-size: 14px;
+            font-weight: 500;
+
+            &:hover {
+                color: var(--color-white);
+            }
+        }
+    }
+
+    &__address-copyright {
+        text-align: center;
+
+        @media screen and (min-width: $bp-desktop) {
+            font-size: 14px;
+            color: var(--color-footer-nav);
+            margin: 48px 0 0 215px
+        }
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: block;
+            margin-left: 190px;
+        }
+    }
+
+    &__input {
+        background-color: #151515;
+        border: none;
+        border-radius: 25px 0 0 25px;
+        padding: 16px 31px;
+
+        &:focus {
+            color: var(--color-white);
+        }
+    }
+
+
+    &__elements:not(:last-child) {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: block;
+            width: 100%;
+            max-width: 190px;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        justify-content: center;
+
+        @media screen and (min-width: $bp-desktop) {
+            margin-left: 55px;
+            justify-content: start;
+        }
+
+        svg {
+            fill: var(--color-white);
+                &:hover {
+                   fill: var(--color-price-light);
+            }
+        }
+    }
+
+    &__form {
+        display: flex;
+        margin: 40px 0 70px;
+    }
+
+    &__button {
+        border: none;
+        background-color: #151515;
+        border-radius: 0 25px 25px 0;
+        padding-right: 52px;
+        cursor: pointer;
+        fill: var(--color-white);
+    }
+}

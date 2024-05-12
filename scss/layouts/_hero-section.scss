@@ -1,0 +1,103 @@
+.hero-section {
+    padding: 96px 0 153px;
+    background: linear-gradient(83deg, #E9F8FF 0%, #F7EEFE 94.5%);
+
+    @media screen and (min-width: $bp-desktop) {
+        padding: 153px 0;
+    }
+
+    &__conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: normal;
+        }
+    }
+
+    &__content {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 520px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 70px;
+        color: var(--color-brand-dark);
+        font-style: normal;
+        line-height: 87px;
+        margin-bottom: 16px;
+    }
+    
+    &__text {
+        margin: 0;
+        line-height: 38px;
+    }
+
+    &__button {
+        display: flex;
+        font-weight:900;
+        font-size: 14px;
+        align-items: center;
+        text-transform: uppercase;
+        padding: 20px 65px;
+        margin: 36px 0;
+        color: var(--color-white);
+        background-color: var(--color-button);
+        border: 2px solid var(--color-button);
+        border-radius: 32px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            color: var(--color-brand-dark);
+            border: 2px solid var(--color-button);
+
+            svg {
+                fill: var(--color-brand-dark);
+            }
+        }
+    }
+
+    &__garant-money {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 27px;
+        }
+    }
+
+    &__brand {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 31px 36px;
+
+    }
+
+    &__price {
+        margin: 58px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: 0 0 58px 110px;
+        }
+    }
+    // &__photo-price {
+    //     max-width: 100%
+    // }
+}

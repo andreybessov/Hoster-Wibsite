@@ -1,0 +1,114 @@
+.hosting-plan-section {
+    background: linear-gradient(83deg, #E9F8FF 0%, #F7EEFE 94.5%);
+    padding: 32px 0;
+
+    @media screen and (min-width: $bp-desktop) {
+        padding: 140px 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+
+        @media screen and (min-width: $bp-desktop) {
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+    }
+
+    &__item {
+        box-shadow: 0px 15px 64px 0px rgba(44, 75, 184, 0.10);
+        background-color: var(--color-white);
+        padding: 20px;
+        
+        h3 {
+            font-weight: 700;
+            color: var(--color-brand-dark);
+            margin-bottom: 34px;
+            max-width: 300px;
+        }
+
+        h3:first-child {
+            width: 300px;
+        }
+
+        @media screen and (min-width: $bp-desktop) {
+            padding: 45px 52px;
+        }
+
+    }
+
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--color-brand-dark);
+        margin-bottom: 38px;
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 46px;
+            margin-bottom: 59px;
+        }
+    }
+
+    &__price {
+        font-weight: 900;
+        font-size: 56px;
+        color: var(--color-price-light);
+        margin: 0;
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    &__wholesale {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    &__button {
+        padding: 15px 50px;
+        margin: 40px 0;
+        background-color: var(--color-button);
+        color: var(--color-white);
+        border: 2px solid var(--color-button);
+        border-radius: 32px;
+        font-weight: 900;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+                background-color: transparent;
+                color: var(--color-brand-dark);
+                border: 2px solid var(--color-button);
+        
+                svg {
+                    fill: var(--color-brand-dark);
+            }
+        }
+    }
+
+    &__includes {
+        display: flex;
+    }
+
+    &__text {
+        p {
+            margin: 0;
+            white-space: nowrap;
+            font-size: 16px;
+        }
+
+        p:not(:last-child) {
+            margin-bottom: 21px;
+        }
+    }
+}

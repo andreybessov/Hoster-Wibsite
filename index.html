@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Hoster.co</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="conteiner">
+        <div class="header__conteiner">
+          <nav class="header__nav">
+            <a href="index.html">
+              <img src="./images/logo.svg" alt="Логотип Hoster" />
+            </a>
+            <ul class="header__list">
+              <li><a class="header__link" href="#">Home</a></li>
+              <li><a class="header__link" href="#">Products</a></li>
+              <li><a class="header__link" href="#">Plans & Pricing</a></li>
+              <li><a class="header__link" href="#">Contact</a></li>
+            </ul>
+            <button class="header__button" type="button">Login</button>
+            <button class="header__burger-menu menu-btn-open" type="button">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-burger"></use>
+              </svg>
+            </button>
+            <div class="mobile-menu">
+              <button
+                class="mobile-menu__btn-close menu-btn-close"
+                type="button"
+              ></button>
+              <nav class="mobile-menu__nav">
+                <a href="index.html">
+                  <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
+                </a>
+                <ul class="mobile-menu__list">
+                  <li>
+                    <a class="mobile-menu__link" id="mobile-link-1" href="#web-hosting-section"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="mobile-menu__link"
+                      id="mobile-link-2"
+                      href="#domain-section"
+                      >Products</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="mobile-menu__link"
+                      id="mobile-link-3"
+                      href="#performance-section"
+                      >Plans & Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="mobile-menu__link"
+                      id="mobile-link-4"
+                      href="#hosting-plan-section"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+                <div class="mobile-menu__icons">
+                  <a class="mobile-menu__icon" href="https://www.instagram.com/">
+                    <svg width="32" height="32">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                  <a class="mobile-menu__icon" href="https://www.facebook.com/">
+                    <svg width="32" height="32">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section" id="hero-section">
+        <div class="conteiner">
+          <div class="hero-section__conteiner">
+            <div class="hero-section__content">
+              <h1 class="hero-section__title">
+                Fastest<br />
+                Web Hosting
+              </h1>
+              <p class="hero-section__text">
+                At a price nobody can beat. Nobody!
+              </p>
+              <button class="hero-section__button" type="button">
+                Get started
+                <svg class="arrow-icon" width="17" height="15">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+              <div class="hero-section__garant-money">
+                <svg class="checkmark-icon" width="20" height="11">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+                <p>30-day money-back guarantee</p>
+              </div>
+            </div>
+            <div class="hero-section__image">
+              <div class="hero-section__price">
+                <img
+                  class="hero-section__photo-price"
+                  src="./images/price.png"
+                  alt="price"
+                />
+              </div>
+              <div class="hero-section__brand">
+                <img src="./images/bigcommerce.png" alt="bigcommerce" />
+                <img src="./images/shopify.png" alt="shopify" />
+                <img src="./images/magento.png" alt="magento" />
+                <img src="./images/drupal.png" alt="drupal" />
+                <img src="./images/wordpress.png" alt="wordpress" />
+                <img src="./images/opencart.png" alt="opencart" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="web-hosting-section" id="web-hosting-section">
+        <div class="conteiner">
+          <div class="web-hosting-section__conteiner">
+            <div class="web-hosting-section__content">
+              <h2 class="web-hosting-section__title">Web hosting</h2>
+              <p class="web-hosting-section__text">
+                Perfect for small to medium websites.
+              </p>
+              <p class="web-hosting-section__price-text">As low as</p>
+              <p class="web-hosting-section__price">$0.99<span>/mo</span></p>
+              <button class="web-hosting-section__button" type="button">
+                Get started
+                <svg class="arrow-icon" width="17" height="15">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+            <img src="./images/web-hosting.jpg" alt="scheme" />
+          </div>
+        </div>
+      </section>
+      <section class="cloud-hosting-section" id="cloud-hosting-section">
+        <div class="conteiner">
+          <div class="cloud-hosting-section__conteiner">
+            <img src="./images/cloud-hosting.jpg" alt="scheme" />
+            <div>
+              <h2 class="cloud-hosting-section__title">Cloud hosting</h2>
+              <p class="web-hosting-section__text">
+                Perfect for small to medium websites.
+              </p>
+              <p class="web-hosting-section__price-text">As low as</p>
+              <p class="cloud-hosting-section__price">$0.99<span>/mo</span></p>
+              <button class="cloud-hosting-section__button" type="button">
+                Get started
+                <svg class="arrow-icon" width="17" height="15">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="domain-section" id="domain-section">
+        <div class="conteiner">
+          <div class="domain-section__conteiner">
+            <h2 class="domain-section__title">
+              Find the perfect<br />
+              domain name, for free
+            </h2>
+            <form
+              class="domain-section__form"
+              autocomplete="off"
+              novalidate
+              id="domain-form"
+            >
+              <label for="domain" class="visually-hidden">Domain</label>
+              <input
+                type="text"
+                class="domain-section__input"
+                name="domain"
+                id="domain"
+                placeholder="Enter your desired domain name..."
+              />
+              <button type="submit" class="domain-section__button">
+                Search Domain
+                <svg class="arrow-icon" width="17" height="15">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="performance-section" id="performance-section">
+        <div class="conteiner">
+          <div class="perfomance-section__conteiner">
+            <div class="performance-section__content">
+              <h2 class="performance-section__title">
+                Built for lightning speed
+              </h2>
+              <p class="performance-section__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas id convallis orci, nec tincidunt est. Sed posuere elit
+                sed ligula tempor commodo. Proin velit sem, fringilla eget
+                finibus ac, pharetra vel enim.
+              </p>
+            </div>
+            <ul class="performance-section__list">
+              <li>
+                <h3 class="performance-section__title-card">Unique hPanel</h3>
+                <p>Perfect for small to medium websites.</p>
+                <div class="performance-section__arrow">
+                  <svg class="performance-section__icon" width="17" height="15">
+                    <use href="./images/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <h3 class="performance-section__title-card">
+                  Exceptional Speed
+                </h3>
+                <p>Perfect for small to medium websites.</p>
+                <div class="performance-section__arrow">
+                  <svg class="performance-section__icon" width="17" height="15">
+                    <use href="./images/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <h3
+                  class="performance-section__title-card performance-section__last-card"
+                >
+                  WordPress Optimized
+                </h3>
+                <p>Perfect for small to medium websites.</p>
+                <div class="performance-section__arrow">
+                  <svg class="performance-section__icon" width="17" height="15">
+                    <use href="./images/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="mission-section" id="mission-section">
+        <div class="conteiner">
+          <div class="mission-section__conteiner">
+            <p class="mission-section__text">
+              Perfect for small to medium websites.
+            </p>
+            <h3 class="mission-section__title">
+              Best in the industry your<br />
+              success is our mission
+            </h3>
+            <button class="mission-section__button" type="button">
+              Learn More
+              <svg class="mission-section__icon" width="25" height="11">
+                <use href="./images/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="your-choice-section" id="your-choice-section">
+        <div class="conteiner">
+          <div class="your-choice-section__conteiner">
+            <h2 class="your-choice-section__title">
+              Make the choice to do more
+            </h2>
+            <ul class="your-choice-section__list">
+              <li class="your-choice-section__item">
+                <article>
+                  <img src="./images/your-choice-1.jpg" alt="man-photo" />
+                  <div class="your-choice-section__text">
+                    <p>“Anyone could design a website using Hostinger.”</p>
+                    <p>Sam Beckman</p>
+                  </div>
+                </article>
+              </li>
+              <li class="your-choice-section__item">
+                <article>
+                  <img src="./images/your-choice-2.jpg" alt="man-photo" />
+                  <div class="your-choice-section__text">
+                    <p>“Anyone could design a website using Hostinger.”</p>
+                    <p>Sam Beckman</p>
+                  </div>
+                </article>
+              </li>
+              <li class="your-choice-section__item">
+                <article>
+                  <img src="./images/your-choice-3.jpg" alt="man-photo" />
+                  <div class="your-choice-section__text">
+                    <p>“Anyone could design a website using Hostinger.”</p>
+                    <p>Sam Beckman</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="hosting-plan-section" id="hosting-plan-section">
+        <div class="conteiner">
+          <h2 class="hosting-plan-section__title">
+            Choose your web hosting plan
+          </h2>
+          <ul class="hosting-plan-section__list">
+            <li class="hosting-plan-section__item">
+              <article>
+                <h3>
+                  Singl Shared<br />
+                  Hosting
+                </h3>
+                <p class="web-hosting-section__price-text">As low as</p>
+                <p class="hosting-plan-section__price">
+                  $1.45 <span>/mo</span>
+                </p>
+                <p class="hosting-plan-section__wholesale">
+                  $2.15/mo when you renew
+                </p>
+                <button class="hosting-plan-section__button" type="button">
+                  Get started
+                  <svg class="arrow-icon" width="14" height="11">
+                    <use href="./images/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+                <div class="hosting-plan-section__includes">
+                  <div class="hosting-plan-section__text">
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1 Website
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1 Email Account
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      100 GB Bandwidth
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1X Processing Power & Memory
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="hosting-plan-section__item">
+              <article>
+                <h3>Premium Shared Hosting</h3>
+                <p class="web-hosting-section__price-text">As low as</p>
+                <p class="hosting-plan-section__price">
+                  $2.15 <span>/mo</span>
+                </p>
+                <p class="hosting-plan-section__wholesale">
+                  $3.49/mo when you renew
+                </p>
+                <button class="hosting-plan-section__button" type="button">
+                  Get started
+                  <svg class="arrow-icon" width="14" height="11">
+                    <use href="./images/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+                <div class="hosting-plan-section__includes">
+                  <div class="hosting-plan-section__text">
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1 Website
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1 Email Account
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      100 GB Bandwidth
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1X Processing Power & Memory
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="hosting-plan-section__item">
+              <article>
+                <h3>Business Shared Hosting</h3>
+                <p class="web-hosting-section__price-text">As low as</p>
+                <p class="hosting-plan-section__price">
+                  $3.45 <span>/mo</span>
+                </p>
+                <p class="hosting-plan-section__wholesale">
+                  $7.95/mo when you renew
+                </p>
+                <button class="hosting-plan-section__button" type="button">
+                  Get started
+                  <svg class="arrow-icon" width="14" height="11">
+                    <use href="./images/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+                <div class="hosting-plan-section__includes">
+                  <div class="hosting-plan-section__text">
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1 Website
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1 Email Account
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      100 GB Bandwidth
+                    </p>
+                    <p>
+                      <svg class="checkmark-icon" width="17" height="11">
+                        <use href="./images/icons.svg#icon-checkmark"></use>
+                      </svg>
+                      1X Processing Power & Memory
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="conteiner">
+        <nav>
+          <a class="footer__logo" href="index.html">
+            <img src="./images/footer-logo.svg" alt="Логотип BroadHost" />
+          </a>
+          <div class="footer__conteiner">
+            <div class="footer__elements">
+              <h3>Hosting</h3>
+              <ul class="footer__list">
+                <li><a href="#">Web Hosting</a></li>
+                <li><a href="#">VPS Hosting</a></li>
+                <li><a href="#">Cloud Hosting</a></li>
+                <li><a href="#">WordPress Hosting</a></li>
+                <li><a href="#">Email Hosting</a></li>
+              </ul>
+            </div>
+            <div class="footer__elements">
+              <h3>Domains</h3>
+              <ul class="footer__list">
+                <li><a href="#">Domain Checker</a></li>
+                <li><a href="#">Domain Transfer</a></li>
+                <li><a href="#">Free Domain</a></li>
+                <li><a href="#">XYZ Domain</a></li>
+                <li><a href="#">Buy Domain Name</a></li>
+                <li><a href="#">Whois Checker</a></li>
+              </ul>
+            </div>
+            <div class="footer__elements">
+              <h3>Information</h3>
+              <ul class="footer__list">
+                <li><a href="#">Server Status</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Payment Methods</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="footer__elements">
+              <h3>Sing up for our newsletter</h3>
+              <div class="footer__form">
+                <label for="user-email" class="visually-hidden">Email</label>
+                <input
+                  type="email"
+                  class="footer__input"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Enter your email"
+                />
+                <button class="footer__button" type="button">
+                  <svg width="27" height="27">
+                    <use href="./images/icons.svg#icon-massage"></use>
+                  </svg>
+                </button>
+              </div>
+              <h3>Find us on social media</h3>
+              <div class="footer__icon">
+                <a href="#">
+                  <svg width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <p class="footer__address-copyright">
+          &copy;2019 BroadHost All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
