@@ -1,1 +1,1 @@
-Site for practice, without adaptability for different devices
+Site for practic
